@@ -1,10 +1,25 @@
-This is going to be a grand redesign of my current blog site, humanitygoing.com.
+This site is going to be a portfolio site of sorts for my creative writing.  I have a few short stories, novels, and screenplays in various stages of completion, and whether or not they're done, I'd like to display them possibly as "teasers" on my personal site. I will also include the status of each project on the site, and can update each project's page as I make progress on them.
 
-It is currently a blog about science development and society with commentary, but I would like to add film reviews and commentary to the site, as well as possibly a page for general commentary on anything I feel like putting up there.
+Screenplays: 
 
-Pages:
-Science News
-Film Reviews
-Film Commentary
-Stuff from my Brain
+A Consequence of Life (finished)
+Spirit (1st draft complete, needs rewrite)
 
+Novels:
+"The Big Idea"
+	-9 Chapters done
+	-artwork: city design for Tullenspire
+	-Character information pages
+
+"Untitled Planar Adventure"
+	-1 or 2 chapters written
+	-story outline
+	-Characters/Gods/Parties pages
+
+Short Stories:
+"Justice For All" - Finished
+"Memory of a Dream" - almost finished
+
+
+Children's Stories:
+"The Orb of Destiny" - in progress
