@@ -5,19 +5,21 @@
 }
 
 body {
-	background-color: teal;
+	background: url(../images/nightsky.jpg) no-repeat center top;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background-color: gray;
+	box-shadow: 2px 2px 2px 0;
 }
 /* ////Header///// */
 
 header {
 	width: 100%;
 	padding: 30px;
+	box-shadow: 2px 2px 2px 0;
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b543d+0,627d4d+27,627d4d+73,0b543d+100 */
 background: #0b543d; /* Old browsers */
