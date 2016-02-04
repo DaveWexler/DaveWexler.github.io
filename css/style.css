@@ -13,6 +13,36 @@ body {
 	margin: 0 auto;
 	background-color: gray;
 }
+/* ////Header///// */
+
+header {
+	width: 100%;
+	padding: 30px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b543d+0,627d4d+27,627d4d+73,0b543d+100 */
+background: #0b543d; /* Old browsers */
+background: -moz-linear-gradient(top,  #0b543d 0%, #627d4d 27%, #627d4d 73%, #0b543d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0b543d 0%,#627d4d 27%,#627d4d 73%,#0b543d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0b543d 0%,#627d4d 27%,#627d4d 73%,#0b543d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b543d', endColorstr='#0b543d',GradientType=0 ); /* IE6-9 */
+
+}
+
+header h1 {
+	font-size: 3em;
+	font-style: italic;
+	font-family: cursive, serif;
+	text-align: center;
+}
+
+header h2 {
+	font-family: fantasy, serif;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+/* //////MAIN BODY ///// */
 
 #mainbody {
 	padding: 20px;
