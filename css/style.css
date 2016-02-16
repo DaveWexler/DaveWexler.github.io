@@ -44,7 +44,10 @@ header h2 {
 /* //////NAV BAR/////// */
 nav {
 	background-color: black;
+}
 
+.current {
+	background-color: #333333;
 }
 
 nav a {
