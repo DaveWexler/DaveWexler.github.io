@@ -14,7 +14,17 @@
 	</header>
 
 	<nav id="menu">
-		<a href="#" class="current">Home</a><a href="screenplays.html">Screenplays</a><a href="novels.html">Novels</a><a href="shortstories.html">Short Stories</a><a href="childrens.html">Children's Stories</a><a href="about.html">About Me</a>
+		<a href="#" class="current">Home</a>
+		<div class="dropdown">
+			<a href="screenplays.html">Screenplays</a>
+			<ul class="droplist">
+				<li><a href="#">A Consequence of Life</a></li>
+				<li><a href="#">Spirit</a></li>	
+		</div>
+		<a href="novels.html">Novels</a>
+		<a href="shortstories.html">Short Stories</a>
+		<a href="childrens.html">Children's Stories</a>
+		<a href="about.html">About Me</a>
 	</nav>
 	
 
@@ -44,10 +54,14 @@
 
 		<div class="row">
 			<div class="col-6">
-				<h3>Short Stories</h3>
+				<div class="linkbox">
+					<h3>Short Stories</h3>
+				</div>
 			</div>
 			<div class="col-6">
-				<h3>Children's Stories</h3>
+				<div class="linkbox">
+					<h3>Children's Stories</h3>
+				</div>
 			</div>
 		</div>
 
@@ -58,6 +72,8 @@
 
 
 	</div> <!-- wrapper -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/activemenu.js"></script>
 </body>
 </html>
 
