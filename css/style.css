@@ -68,6 +68,14 @@ nav a:hover {
 	background-color: #590058;
 }
 
+.dropdown-content {
+	display: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	position: absolute;
+}
 
 /* //////MAIN BODY ///// */
 
