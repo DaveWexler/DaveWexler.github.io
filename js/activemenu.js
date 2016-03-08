@@ -1,3 +1,13 @@
 'use strict';
 
-$('.droplist').hide();
+$(document).ready(function() {
+
+// 	$('.dropdown').hide();
+
+// 	$('.hasdrop').hover(function() {
+// 		$('.dropdown').show()
+// 	}, function() {
+// 		$('.dropdown').hide();
+// 	});
+
+});
