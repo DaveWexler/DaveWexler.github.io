@@ -50,21 +50,83 @@ nav {
 	background-color: #333333;
 }
 
-nav a {
-	display: inline-block;
-	width: 16.66666%;
-	text-align: center;
-	border-left: 1px solid gray;
-	color: white;
-	padding: 15px 0 15px 0;
-	text-decoration: none;
+nav ul ul {
+	display: none;
 }
 
-nav a:last-child {
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul {
+	width: 100%;
+	padding: 0 0 0 0;
+}
+
+nav ul > li {
+	display: inline-table;
+	position: relative;
+	width: 16.66666%;
+	list-style: none;
+	border-left: 1px solid gray;
+	padding: 15px 0 15px 0;
+}
+nav ul > li:last-child {
+	border-right: 1px solid gray;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	background-color: #590058;
+}
+
+nav ul li a:hover {
+	background-color: #590058;
+}
+
+nav ul li a {
+		display: block; padding: 15px 0 15px 0;
+		color: white; text-decoration: none; text-align: center;
+	}
+nav ul ul {
+	background-color: black; padding: 0;
+	position: absolute; top: 100%;
+}
+nav ul ul li {
+		float: none; 
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		border-right: 1px solid gray;
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+nav ul ul li a {
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+}
+/*
+nav div.TopLayer a {
+	width: 16.66666%;
+	border-left: 1px solid gray;
+	padding: 15px 0 15px 0;
+	text-decoration: none;
+	color: white;
+	padding: 15px 0 15px 0;
+}
+
+nav button:last-child {
 	border-right: 1px solid gray;
 }
 
-nav a:hover {
+nav div:hover {
 	background-color: #590058;
 }
 
@@ -72,11 +134,18 @@ nav a:hover {
 	display: none;
 }
 
-.dropdown:hover .dropdown-content {
+.TopLayer:hover .dropdown-content {
 	display: block;
 	position: absolute;
-}
+	top: 100%;
+	border-left: 1px solid gray;
+	padding: 15px 0 15px 0;
+	text-decoration: none;
+	color: white;
+	padding: 15px 0 15px 0;
 
+}
+*/
 /* //////MAIN BODY ///// */
 
 #mainbody {
