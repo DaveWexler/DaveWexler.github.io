@@ -44,10 +44,17 @@ header h2 {
 /* //////NAV BAR/////// */
 nav {
 	background-color: black;
+	margin: 0;
 }
 
 .current {
 	background-color: #333333;
+}
+nav ul {
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 0;
+	height
 }
 
 nav ul ul {
@@ -57,10 +64,7 @@ nav ul ul {
 nav ul li:hover > ul {
 	display: block;
 }
-nav ul {
-	width: 100%;
-	padding: 0 0 0 0;
-}
+
 
 nav ul > li {
 	display: inline-table;
@@ -68,7 +72,7 @@ nav ul > li {
 	width: 16.66666%;
 	list-style: none;
 	border-left: 1px solid gray;
-	padding: 15px 0 15px 0;
+	padding: 0px 0 0px 0;
 }
 nav ul > li:last-child {
 	border-right: 1px solid gray;
@@ -97,20 +101,21 @@ nav ul ul {
 	position: absolute; top: 100%;
 }
 nav ul ul li {
-		float: none; 
-		border-top: 1px solid gray;
-		border-bottom: 1px solid gray;
-		border-right: 1px solid gray;
-		position: relative;
-		display: block;
-		width: 100%;
+	float: none; 
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	position: relative;
+	display: block;
+	width: 100%;
 	}
+nav ul ul li:first-child {
+	border-top: 1px solid gray;
+}
 nav ul ul li a {
 	display: block;
 	position: relative;
 	height: 100%;
 	width: 100%;
-
 }
 /*
 nav div.TopLayer a {
